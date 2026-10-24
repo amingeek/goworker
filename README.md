@@ -85,9 +85,9 @@ goworker/
   - [x] Task domain model & lifecycle state machine (`PENDING`, `RUNNING`, `COMPLETED`, `FAILED`, `DLQ`).
   - [x] Concurrency-safe Min-Heap implementation (`SafeQueue`).
   - [x] Race condition tests passed (`go test -race`).
-- [ ] **Phase 2: Retry Engine & Backoff**
-  - [ ] Exponential backoff calculation with Full Jitter.
-  - [ ] Dead Letter Queue (DLQ) dispatching.
+- [x] **Phase 2: Retry Engine & Backoff**
+  - [x] Exponential backoff calculation with Full Jitter.
+  - [x] Dead Letter Queue (DLQ) dispatching.
 - [ ] **Phase 3: Worker Pool & Engine Dispatcher**
   - [ ] Goroutine worker pool with channel buffering.
   - [ ] Context cancellation and OS signal trapping (`SIGINT`, `SIGTERM`).
